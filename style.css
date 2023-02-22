@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    text-align: center;
+    margin-top:23px;
+}
+
+table{
+    margin: auto;
+}
+
+input{
+    border-radius: 21px;
+    font-size: 56px;
+    height: 102px;
+    width: 456px;
+    background-color: #84b384;
+}
+
+button{
+    border-radius: 20px;
+    font-size: 40px;
+    background: #a0a0a1;
+    width: 102px;
+    height: 90px;
+    margin: 6px;
+    color: #fff;
+}
+
+.calculator{ 
+    background-color: rgb(60 56 56);
+    padding: 23px;
+    border-radius: 13px;
+    display: inline-block;
+    
+}
+h1{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+}
+#coloring td button{
+   background-color:black;
+   color: white;
+}
+.orange td .orang{
+    background-color: orange;
+}
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    max-width: 100%;
+    z-index: -100;
+    width: auto;
+    height: auto;
+}
+@media screen and (max-width: 450px){
+    .back-video{
+        display: none;
+    }
+    #screen{
+        width: 300px;
+        height: 90px;
+        font-size: 40px;
+    }
+    .calculator{
+        width: 300px;
+        border-radius: 10%;
+        height: auto;
+    }
+     h1{
+       color: #fff;
+       font-size: 20px;
+       text-align: center;
+    }
+   .table{
+    width: 80px;
+   }
+   button{
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+    padding: 0 ;
+    border-radius: 40%;
+   }
+   h1{
+    position: relative;
+   }
+}
+@media(max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height:100%;
+    }
+}
